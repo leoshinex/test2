@@ -1,0 +1,10 @@
+Cau 1 A
+Cau 2 B
+Cau 3 A
+Cau 4 B & D
+Cau 5 A
+Cau 6 A
+Cau 7 C
+Cau 8 A
+Cau 9 D
+Cau 10 C

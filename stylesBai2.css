@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+input{
+    padding: 6px;
+    max-width: 850px;
+}
+
+button{
+    padding: 6px;
+    border-radius: 15px;
+    background-color: #66AD5B;
+    border: 1px solid #66AD5B;
+    max-width: 850px;
+}
+
+
+/* Style for the user info */
+.user-info {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+        margin-top: 15px;
+    }
+}
+
+/* Style for the user image */
+.user-image {
+
+    margin-top: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50px;
+}
